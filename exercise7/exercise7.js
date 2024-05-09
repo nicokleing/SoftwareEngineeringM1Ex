@@ -11,9 +11,9 @@ function Sum(a, b) {
 
 // Unit tests for the Sum function
 console.log("Sum Function Tests:");
-console.log("Test 1:", Sum(3, 4));  // Expected Output: 7
-console.log("Test 2:", Sum(-5, 10));  // Expected Output: 5
-console.log("Test 3:", Sum(0, 0));  // Expected Output: 0
+console.log("Test 1:", (Sum(3, 4) === 7) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 2:", (Sum(-5, 10) === 5) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 3:", (Sum(0, 0) === 0) ? "Pass" : "Fail");  // Expected Output: Pass
 
 // Function to subtract one number from another
 /**
@@ -28,9 +28,9 @@ function Subtract(a, b) {
 
 // Unit tests for the Subtract function
 console.log("\nSubtract Function Tests:");
-console.log("Test 1:", Subtract(10, 5));  // Expected Output: 5
-console.log("Test 2:", Subtract(5, -3));  // Expected Output: 8
-console.log("Test 3:", Subtract(0, 0));  // Expected Output: 0
+console.log("Test 1:", (Subtract(10, 5) === 5) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 2:", (Subtract(5, -3) === 8) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 3:", (Subtract(0, 0) === 0) ? "Pass" : "Fail");  // Expected Output: Pass
 
 // Function to multiply two numbers
 /**
@@ -45,9 +45,9 @@ function Multiply(a, b) {
 
 // Unit tests for the Multiply function
 console.log("\nMultiply Function Tests:");
-console.log("Test 1:", Multiply(3, 4));  // Expected Output: 12
-console.log("Test 2:", Multiply(-5, 10));  // Expected Output: -50
-console.log("Test 3:", Multiply(0, 5));  // Expected Output: 0
+console.log("Test 1:", (Multiply(3, 4) === 12) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 2:", (Multiply(-5, 10) === -50) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 3:", (Multiply(0, 5) === 0) ? "Pass" : "Fail");  // Expected Output: Pass
 
 // Function to divide one number by another
 /**
@@ -66,7 +66,7 @@ function Divide(a, b) {
 
 // Unit tests for the Divide function
 console.log("\nDivide Function Tests:");
-console.log("Test 1:", Divide(10, 2));  // Expected Output: 5
-console.log("Test 2:", Divide(-10, 5));  // Expected Output: -2
-console.log("Test 3:", Divide(0, 5));  // Expected Output: 0
-console.log("Test 4:", Divide(10, 0));  // Expected Error Output: Error: Division by zero
+console.log("Test 1:", (Divide(10, 2) === 5) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 2:", (Divide(-10, 5) === -2) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 3:", (Divide(0, 5) === 0) ? "Pass" : "Fail");  // Expected Output: Pass
+console.log("Test 4:", (Divide(10, 0) === undefined) ? "Pass" : "Fail");  // Expected Error Output: Pass
